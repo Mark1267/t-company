@@ -1,0 +1,6 @@
+vendor
+public
+.env
+resources
+frontend
+git-bash.sh
