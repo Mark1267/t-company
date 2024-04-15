@@ -44,7 +44,7 @@
                                 <li><a href="{{ route('admin.pricing.plan.compound.edit', ['plan_id' => $cplan->id]) }}">{{ $cplan->name }}</a></li>
                             @endforeach
                         </ul>
-                    </li>
+                    </li> --}}
                     <li class="menu-title">Categories</li>
                     <li>
                         <a href="{{ route('admin.pricing.category.add') }}" class=" waves-effect">
@@ -70,4 +70,4 @@
                             <i class="mdi mdi-align-vertical-bottom"></i>
                             <span>All</span>
                         </a>
-                    </li> --}}
+                    </li>

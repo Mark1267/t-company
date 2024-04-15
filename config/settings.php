@@ -41,6 +41,6 @@ return [
     ],
     'config' => [
         'coin_api_key' => 'f52198f5-a38e-48d1-a8d7-f7af1e5c63dc',
-        'tido' => '<script src="//code.tidio.co/stexeaksjjtqo0pby0wkvoc18efktsga.js" async></script>'
+        'tido' => ''
     ]
 ];

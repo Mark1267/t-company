@@ -1,86 +1,101 @@
-<!-- faq -->
-<section class="section section--border-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 mx-auto">
-                @foreach ($faqs() as $key => $faq)
-                    <div class="faq">
-                        <h3 class="faq__title">{{ $faq->question }}</h3>
-                        <p class="faq__text">{{ $faq->answer }}</p>
-                    </div>
-                @endforeach
-
-                {{-- <div class="faq">
-                    <h3 class="faq__title">When and how do you get paid?</h3>
-                    <p class="faq__text">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-                </div>
-
-                <div class="faq">
-                    <h3 class="faq__title">How much can you earn?</h3>
-                    <p class="faq__text">Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                </div>
-
-                <div class="faq">
-                    <h3 class="faq__title">What is the service fee for sellers?</h3>
-                    <p class="faq__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                </div>
-
-                <div class="faq">
-                    <h3 class="faq__title">What is the PPS reward system?</h3>
-                    <p class="faq__text">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                </div> --}}
-            </div>
-
-            {{-- <div class="col-12 col-md-6">
-                <div class="faq">
-                    <h3 class="faq__title">Which Stratum servers are available?</h3>
-                    <p class="faq__text">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                </div>
-
-                <div class="faq">
-                    <h3 class="faq__title">Where can you see your mining status?</h3>
-                    <p class="faq__text">It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                </div>
-
-                <div class="faq">
-                    <h3 class="faq__title">Why are you getting rejected shares?</h3>
-                    <p class="faq__text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
-
-                <div class="faq">
-                    <h3 class="faq__title">What happens when there are no orders?</h3>
-                    <p class="faq__text">Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                </div>
-
-                <div class="faq">
-                    <h3 class="faq__title">Which miners are supported?</h3>
-                    <p class="faq__text">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                </div>
-            </div> --}}
-        </div>
-    </div>
-</section>
-<!-- end faq -->
-
-{{-- <!--FAQ-->
-<section id="faq" class="padding-top padding-bottom-half">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="accordion-container">
-                    @foreach ($faqs() as $key => $faq)
-                        <div class="accordion_title">
-                            <a href="javascript:void(0)" class="{{ $key == 0 ? 'active' : '' }}">
-                                {{ $faq->question }}<i class="fa fa-minus"></i>
-                            </a>
-                            <div class="content" {{ $key == 0 ? 'style="display:block;"' : '' }}>
-                                <p class="bottom20">{{ $faq->answer }}</p>
+<section class="faqs">
+	<div class="main-marq sub-font mb-80">
+		<div class="slide-har st1">
+			<div class="box non-strok">
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+			</div>
+			<div class="box non-strok">
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+				<div class="item">
+					<h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
+								src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="position-re">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6 col-md-10">
+					<div class="sec-head mb-40">
+						<h6 class="mb-15 wow fadeInUp" data-wow-delay="0.4s">// Our Frequency & Question's</h6>
+						<h3 class="fw-700 mb-15 js-splittext-lines">We Provide brilliant ideas <br> Frequency & question's
+						</h3>
+						<h5 class="sub-font fw-500 mb-10 js-splittext-lines">Donec ac augue a enim tempus cinia sed id
+							odio. Orci
+							arius natoque penatibu magnis parturient.</h5>
+					</div>
+					<div class="accordion" id="accordionExample">
+                        @foreach ($faqs() as $key => $faq)
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading{{ $key+1 }}">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse{{ $key+1 }}" aria-expanded="true"
+                                        aria-controls="collapse{{ $key+1 }}"><span class="face-icon mr-30"><img
+                                                src="{{ asset('open') }}/imgs/vector-img/face.svg" alt=""></span> {{ $faq->question }} <span class="icon"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="19" height="8"
+                                                viewBox="0 0 19 8" fill="none">
+                                                <path
+                                                    d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
+                                                    stroke="#141414" />
+                                            </svg></span></button>
+                                </h2>
+                                <div id="collapse{{ $key+1 }}" class="accordion-collapse collapse show"
+                                    aria-labelledby="heading{{ $key+1 }}" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>{{ $faq->answer }}</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-        </div>
-    </div>
+                        @endforeach
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="imgs">
+			<div class="img1 fit-img wow fadeIn" data-wow-delay="0.4s">
+				<img src="{{ asset('open') }}/imgs/hero/f1.jpg" alt="">
+			</div>
+			<div class="img2 fit-img wow fadeIn" data-wow-delay="0.6s">
+				<img src="{{ asset('open') }}/imgs/hero/f2.jpg" alt="">
+			</div>
+			<div class="img3 fit-img wow fadeIn" data-wow-delay="0.8s">
+				<img src="{{ asset('open') }}/imgs/hero/f3.jpg" alt="">
+			</div>
+		</div>
+	</div>
 </section>
-<!-- FAQ ends --> --}}

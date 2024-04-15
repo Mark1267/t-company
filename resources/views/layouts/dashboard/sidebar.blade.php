@@ -76,7 +76,7 @@
                         </ul>
                     </li>
 
-                    <li class="menu-title">Conatct</li>
+                    <li class="menu-title">Contacts</li>
                     <li>
                         <a href="{{ route('admin.contact.all') }}" class=" waves-effect">
                             <i class="mdi mdi-email-edit"></i>
@@ -186,7 +186,7 @@
                     <li>
                         <a href="javascript: void(0);" class="has-arrow waves-effect">
                             <i class="mdi mdi-arrow-down-circle"></i>
-                            <span>Withdrawls</span>
+                            <span>Withdrawals</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
                             <li><a href="{{ route('user.transaction.withdraw.new') }}">Withdraw</a></li>
@@ -196,7 +196,7 @@
                         </ul>
                     </li>
 
-                    <li class="menu-title">Conatct</li>
+                    <li class="menu-title">Contact</li>
                     <li>
                         <a href="{{ route('user.contact.new') }}" class=" waves-effect">
                             <i class="mdi mdi-email-edit"></i>
