@@ -2,16 +2,16 @@
 
 return [
     'site' => [
-        'name' => "Ocean Mining Prime",
+        'name' => "Tesla Energy Company",
         'address' => [
             'full' => "65 Shearsmith Tower Cable Street London E1 8HT",
             'box' => 'E1 8HT',
             'town' => 'Hindmarsh Cl',
-            'region' => 'London',
+            'region' => 'San Francisco',
             'street' => '65 Shearsmith Tower Cable Street',
             'country' => [
-                'full' => 'United Kingdom',
-                'abbr' => 'UK'
+                'full' => 'United States',
+                'abbr' => 'USA'
             ]
         ],
         'phone' => ['+447780783025', '+447780783025'],
@@ -22,11 +22,11 @@ return [
             ]
         ],
         'email' => [
-            'info' => 'info@oceanminingprime.com',
-            'support' => 'support@oceanminingprime.com',
-            'admin' => 'admin@oceanminingprime.com',
-            'mining' => 'mining@oceanminingprime.com',
-            'investment' => 'investment@oceanminingprime.com',
+            'info' => 'info@teslacompany.com',
+            'support' => 'support@teslacompany.com',
+            'admin' => 'admin@teslacompany.com',
+            'mining' => 'mining@teslacompany.com',
+            'investment' => 'investment@teslacompany.com',
         ],
         'logo' => [
             'favi' => 'logo/favi.png',

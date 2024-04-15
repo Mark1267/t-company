@@ -2,31 +2,31 @@
 
 return [
     'site' => [
-        'name' => "Ocean Prime Mining",
+        'name' => "Tesla Energy Company",
         'address' => [
             'full' => "65 Shearsmith Tower Cable Street London E1 8HT",
             'box' => 'E1 8HT',
             'town' => 'Hindmarsh Cl',
-            'region' => 'London',
+            'region' => 'San Francisco',
             'street' => '65 Shearsmith Tower Cable Street',
             'country' => [
-                'full' => 'United Kingdom',
-                'abbr' => 'UK'
+                'full' => 'United States',
+                'abbr' => 'USA'
             ]
         ],
-        'phone' => ['+1 (352) 219-7269', '+1 (352) 219-7269'],
+        'phone' => ['+447780783025', '+447780783025'],
         'socials' => [
             'whatsapp' => [
-                'phone' => '+1 (352) 219-7269',
+                'phone' => '+447780783025',
                 'link' => 'https://api.whatsapp.com/send?phone=447780783025&text=' . urlencode('Hello, I want to invest in Ocean Mining Prime')
             ]
         ],
         'email' => [
-            'info' => 'info@oceanminingprime.com',
-            'support' => 'support@oceanminingprime.com',
-            'admin' => 'admin@oceanminingprime.com',
-            'mining' => 'mining@oceanminingprime.com',
-            'investment' => 'investment@oceanminingprime.com',
+            'info' => 'info@teslacompany.com',
+            'support' => 'support@teslacompany.com',
+            'admin' => 'admin@teslacompany.com',
+            'mining' => 'mining@teslacompany.com',
+            'investment' => 'investment@teslacompany.com',
         ],
         'logo' => [
             'favi' => 'logo/favi.png',
@@ -41,6 +41,6 @@ return [
     ],
     'config' => [
         'coin_api_key' => 'f52198f5-a38e-48d1-a8d7-f7af1e5c63dc',
-        'tido' => '<script src="//code.tidio.co/stexeaksjjtqo0pby0wkvoc18efktsga.js" async></script>'
+        'tido' => ''
     ]
 ];
