@@ -19,7 +19,9 @@ class BlogController extends Controller
 
     public function signle($id){
         return view('news.read', [
-            'post' => Post::find($id)
+            'post' => Post::find($id),
+            'related' => Post::orderBy('created_at', 'desc')->take(12)->get(),
+            'cats' => PostCategories::all()
         ]);
     }
 

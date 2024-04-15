@@ -12,7 +12,7 @@
     <meta name="author" content="">
 
     <!-- Title  -->
-    <title>Goncy</title>
+    <title>{{ $title ?? config('settings.site.name') }} | {{ config('settings.site.name') }}</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('open') }}/imgs/favicon.ico">

@@ -35,7 +35,7 @@ class InvestmentController extends Controller
             'main_user' => $transaction->users_id
         ]);
 
-        //notifiy client
+        //notify client
         $investment = Investment::where('transactions_id', $transaction_id)->first();
         event(new InvestmentStartedEvent($investment));
 

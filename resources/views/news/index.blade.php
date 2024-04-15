@@ -2,216 +2,126 @@
 
 @section('content')
 
-<!-- page title -->
-<section class="section section--first">
+<!-- ==================== Start Header ==================== -->
+
+<header class="page-header mt-5 section-padding sub-bg">
   <div class="container">
-    <div class="row">
-      <!-- section title -->
-      <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
-        <h1 class="section__title section__title--page">Keep Reading</h1>
-        <p class="section__text">Welcome to blog</p>
-      </div>
-      <!-- end section title -->
-    </div>
-  </div>
-
-  <!-- particles -->
-  <div id="canvas" class="section__particles"><canvas class="vanta-canvas"
-      style="position: absolute; z-index: 0; top: 0px; left: 0px; width: 1351px; height: 263px;" width="1351"
-      height="263"></canvas></div>
-  <!-- end particles -->
-</section>
-<!-- end page title -->
-
-<!-- blog -->
-<div class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="row">
-          <!-- sidebar -->
-          <x-Widgets.Blog-Sidebar />
-          <!-- end sidebar -->
-
-          <!-- content -->
-          <div class="col-12 col-lg-8 order-lg-4">
-            @foreach ($posts as $post)
-              <!-- post -->
-              <article class="post">
-                <figure class="post__img">
-                  <img src="{{ asset($post->image) }}" alt="{{ $post->title }}">
-                </figure>
-
-                <header class="post__header">
-                  <span class="post__date">{{ date('F j', strtotime($post->created_at)) }} · {{ rand(1,10) }} min read</span>
-                  <a href="{{ route('news.signle', ['id' => $post->id]) }}"
-                    class="post__category post__category--green">{{ $post->category->title }}</a>
-                  <h2 class="post__title"><a href="{{ route('news.signle', ['id' => $post->id]) }}">{{ $post->title }}
-                    {{ $post->title }}</a></h2>
-                </header>
-
-                <div class="post__content">
-                  <p>{{ $post->sub_title }}...</p>
-                </div>
-
-                <div class="post__author">
-                  <img src="{{ asset(config('settings.site.logo.favi')) }}" alt="">
-                  <h6>{{ $post->user->full_name }}</h6>
-                  <span>Admin</span>
-                </div>
-
-                <a href="{{ route('news.signle', ['id' => $post->id]) }}" class="post__more">Read more</a>
-              </article>
-              <!-- end post -->
-            @endforeach
-
-            {{-- <!-- post -->
-            <article class="post">
-              <figure class="post__img">
-                <img src="./SmartMine – Crypto Mining HTML Template_files/blog.jpg" alt="">
-              </figure>
-
-              <header class="post__header">
-                <span class="post__date">March 23 · 6 min read</span>
-                <a href="https://smartmine.volkovdesign.com/blog.html#"
-                  class="post__category post__category--red">Mining</a>
-                <h2 class="post__title"><a href="https://smartmine.volkovdesign.com/article.html">Bitcoin mining
-                    equipment</a></h2>
-              </header>
-
-              <div class="post__content">
-                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
-                  text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
-                  versions have evolved over the years, sometimes by accident, sometimes on purpose.</p>
+      <div class="row">
+          <div class="col-lg-9">
+              <div class="caption">
+                  <h1>Blog Page</h1>
+                  <div class="row mt-30">
+                      <div class="col-lg-5 col-md-6">
+                          <div class="d-flex align-items-center">
+                              <div>
+                                  <div class="icon-img-80">
+                                      <img src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt="">
+                                  </div>
+                              </div>
+                              <div class="text ml-30">
+                                  <span class="p-style">Nunc id elit vitae augue mattis laoreet. Sed
+                                      ac commodo velit, tristique pulvinar.</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 offset-lg-1 col-md-6 valign">
+                          <div class="d-flex align-items-center">
+                              <div class="long-arw mr-30">
+                                  <img src="assets/imgs/vector-img/long-arrow.svg" alt="">
+                              </div>
+                              <div class="fw-500 sub-font">
+                                  <span class="opacity-7">
+                                      <a href="#0">Home</a>
+                                  </span>
+                                  <span class="ml-10 mr-10">/</span>
+                                  <span>Blogs Page</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-
-              <div class="post__author">
-                <img src="./SmartMine – Crypto Mining HTML Template_files/user2.jpg" alt="">
-                <h6>Kara Doe</h6>
-                <span>CVO</span>
-              </div>
-
-              <a href="https://smartmine.volkovdesign.com/article.html" class="post__more">Read more</a>
-            </article>
-            <!-- end post -->
-
-            <!-- post -->
-            <article class="post">
-              <figure class="post__img">
-                <img src="./SmartMine – Crypto Mining HTML Template_files/blog2.jpg" alt="">
-              </figure>
-
-              <header class="post__header">
-                <span class="post__date">March 17 · 9 min read</span>
-                <a href="https://smartmine.volkovdesign.com/blog.html#"
-                  class="post__category post__category--yellow">Services</a>
-                <h2 class="post__title"><a href="https://smartmine.volkovdesign.com/article.html">Crypto mining
-                    platform</a></h2>
-              </header>
-
-              <div class="post__content">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour, or randomised words which don't look even slightly
-                  believable. Various versions have evolved over the years, sometimes by accident.</p>
-              </div>
-
-              <div class="post__author">
-                <img src="./SmartMine – Crypto Mining HTML Template_files/user.svg" alt="">
-                <h6>John Doe</h6>
-                <span>CEO &amp; Founder</span>
-              </div>
-
-              <a href="https://smartmine.volkovdesign.com/article.html" class="post__more">Read more</a>
-            </article>
-            <!-- end post --> --}}
-
-            <!-- paginator -->
-            {{ $posts->links() }}
-            <!-- end paginator -->
           </div>
-          <!-- end content -->
-        </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-end">
+              <div class="img-circle">
+                  <img src="{{ asset('open') }}/imgs/header/Circle.svg" alt="">
+              </div>
+          </div>
       </div>
-    </div>
   </div>
-</div>
-<!-- end blog -->
-{{-- 
-<!-- Page Title -->
-<section class="page_header" style="background-image: url({{ asset('assets/open/images/assets.jpg') }}) !important;">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <p>News / Blog</p>
-        <h1 class="text-uppercase">latest News</h1>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="page_linker">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <ul class="breadcrumb">
-          <li><a href="{{ route('home') }}"><i class="icon-home6"></i>Home</a></li>
-          <li class="active">Blog</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+</header>
+
+<!-- ==================== End Header ==================== -->
 
 
-<!--Blog/ News-->
-<section id="blog" class="padding-top">
-  <div class="container">
-    <div class="row">
-      <style>
-        .blog_item {
-          width: 100%;
-          display: flex;
-        }
 
-        .media-body {
-          width: 100%;
-        }
-      </style>
-      <div class="col-sm-9 bottom40">
+<!-- ==================== Start Blog ==================== -->
+
+<section class="blog section-padding">
+  <div class="container">
+      <div class="row">
         @foreach ($posts as $post)
-        <div class="blog_item media heading_space">
-          <div class="media-left">
-            <a href="{{ route('news.signle', ['id' => $post->id]) }}">
-              <img class="media-object my-auto" width="300px" src="{{ asset($post->image) }}" alt="{{ $post->title }}">
-            </a>
+          <div class="col-lg-4 col-md-6">
+              <div class="item mb-30">
+                  <div class="img fit-img">
+                      <img src="{{ asset($post->image) }}" alt="{{ $post->title }}">
+                  </div>
+                  <div class="cont mt-20">
+                      <div class="info d-flex align-items-center p-style mb-20">
+                          <div class="date">
+                              <span class="icon ti-calendar"></span>
+                              <span class="opacity-8 ml-10">{{ date('F j Y', strtotime($post->created_at)) }}</span>
+                          </div>
+                          <div class="author ml-40">
+                              <span>by.</span>
+                              <span class="opacity-8 ml-10">Admin</span>
+                          </div>
+                      </div>
+                      <h5 class="fw-700">
+                          <a href="{{ route('news.signle', ['id' => $post->id]) }}">{{ $post->title }}</a>
+                      </h5>
+                      <div class="view fw-700 mt-30 pt-30 bord-thin-top">
+                          <a href="{{ route('news.signle', ['id' => $post->id]) }}">
+                              <span>Read More</span>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
+                                  viewBox="0 0 37 36" fill="none">
+                                  <path
+                                      d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
+                                      stroke="#141414" stroke-width="2"></path>
+                              </svg>
+                          </a>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div class="media-body" style="word-wrap: break-word;">
-            <h3><a href="{{ route('news.signle', ['id' => $post->id]) }}">
-                {{ $post->title }}
-              </a></h3>
-            <ul class="blog_date bottom30">
-              <li><a href="javascript:void(0)">
-                  {{ $post->category->title }}
-                </a></li>
-              <li><a href="javascript:void(0)">
-                  {{ date('F j', strtotime($post->created_at)) }}
-                </a></li>
-            </ul>
-            <span class="bottom30">
-              {{ $post->sub_title }}...
-            </span>
-            <a href="{{ route('news.signle', ['id' => $post->id]) }}" class="text-uppercase continue">Continue
-              Reading</a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            {{ $posts->links() }}
-          </div>
-        </div>
-        @endforeach
+          @endforeach
       </div>
-      <x-Widgets.Blog-Sidebar />
+  </div>
+  {{-- <div class="pagination mt-20">
+      <div class="container">
+          <div class="d-flex align-items-center justify-content-center">
+              <div>
+                  <a href="#0" class="numb">01</a>
+                  <a href="#0" class="numb active">02</a>
+                  <a href="#0" class="numb">03</a>
+                  <a href="#0" class="numb">04</a>
+                  <a href="#0" class="numb">05</a>
+              </div>
+          </div>
+      </div>
+  </div> --}}
+  <div class="pagination mt-20">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-center">
+        <div>
+          @foreach ($posts->links() as $link)
+            <a href="{{ $link->url }}" class="numb @if ($link->isActive()) active @endif">{{ $link->label }}</a>
+          @endforeach
+        </div>
+      </div>
     </div>
   </div>
 </section>
-@endsection --}}
+
+<!-- ==================== End Blog ==================== -->
+
+@endsection
