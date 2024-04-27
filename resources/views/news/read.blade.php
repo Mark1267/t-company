@@ -19,8 +19,7 @@
 									</div>
 								</div>
 								<div class="text ml-30">
-									<span class="p-style">Nunc id elit vitae augue mattis laoreet. Sed
-										ac commodo velit, tristique pulvinar.</span>
+									<span class="p-style">{{ $post->title }}: {{ $post->sub_title }}</span>
 								</div>
 							</div>
 						</div>
@@ -34,7 +33,7 @@
 										<a href="{{ route('news.all') }}">Home</a>
 									</span>
 									<span class="ml-10 mr-10">/</span>
-									<span>Blog Details</span>
+									<span>{{ $post->title }}</span>
 								</div>
 							</div>
 						</div>
@@ -86,10 +85,10 @@
 					</div>
 					<div class="tags mt-50">
 						<span class="mr-10 fw-700 fz-14">Tags Here :</span>
-						<a href="#0">Creative</a>
+						{{-- <a href="#0">Creative</a>
 						<a href="#0">Consultant</a>
 						<a href="#0">Business</a>
-						<a href="#0">UX/UI Designer</a>
+						<a href="#0">UX/UI Designer</a> --}}
 					</div>
 					<div class="author sub-bg d-flex align-items-center mt-40">
 						<div>
@@ -181,7 +180,7 @@
 						</div>
 					</div>
 					<div class="widget catogry">
-						<h6 class="title-widget">Services List</h6>
+						<h6 class="title-widget">Our Blog Categories List</h6>
 						<ul class="rest">
 							@foreach ($cats as $cat)
 								<li>
