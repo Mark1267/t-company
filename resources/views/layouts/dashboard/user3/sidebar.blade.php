@@ -141,7 +141,7 @@
                     </li>
 
                     <li class=" nav-item"><a href="{{ route('user.contact.new') }}"><i class="la la-envelope"></i><span class="menu-title" data-i18n="nav.others.contact">Contact Admin</span></a></li>
-                    <li class=" nav-item"><a href="{{ route('user.referrals') }}"><i class="la la-group"></i><span class="menu-title" data-i18n="nav.others.ref">Refferal</span></a></li>
+                    <li class=" nav-item"><a href="{{ route('user.referrals') }}"><i class="la la-group"></i><span class="menu-title" data-i18n="nav.others.ref">Friends Invited</span></a></li>
                 
                 <li class=" nav-item">
                     <form method="POST" action="{{ route('logout') }}">

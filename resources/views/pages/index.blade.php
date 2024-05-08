@@ -501,6 +501,8 @@
 </section>
 <!-- ==================== End Services ==================== -->
 
+@include('layouts.widgets.realestate')
+
 <!-- ==================== Start Price ==================== -->
 <x-Widgets.Plan-List />
 <!-- ==================== End Price ==================== -->

@@ -208,7 +208,7 @@
                     <li>
                         <a href="{{ route('user.referrals') }}" class=" waves-effect">
                             <i class="mdi mdi-account-group"></i>
-                            <span>Referrals</span>
+                            <span>Friends Invited</span>
                         </a>
                     </li>
                     {{-- <li>
