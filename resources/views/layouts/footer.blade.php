@@ -6,12 +6,12 @@
 				<div class="row align-items-center">
 					<div class="col-lg-9">
 						<div class="cont">
-							<h2>Lat’s start your Project <span class="bg-img"
+							<h2>Begin Your Path to Wealth <span class="bg-img"
 									data-background="{{ asset('open') }}/imgs/call-action/0.jpg"></span></h2>
 						</div>
 					</div>
 					<div class="col-lg-3 d-flex align-items-center justify-content-end">
-						<a href="#0"
+						<a href="{{ route('contact') }}"
 							class="butn-circle butn-light d-flex align-items-center justify-content-center text-center">
 							<div>
 								<span class="text fw-700 mb-15">Get In Touch</span>
@@ -65,32 +65,32 @@
 								<div class="col-6">
 									<ul class="rest sub-font">
 										<li>
-											<a href="#0">Corporate Business</a>
+											<a href="{{ route('news.all') }}">Energy Submit({{ date('Y') }})</a>
 										</li>
 										<li>
-											<a href="#0">SEO Agency</a>
+											<a href="{{ route('about') }}">About Us</a>
 										</li>
 										<li>
-											<a href="#0">Company Report</a>
+											<a href="{{ route('plans') }}">Eco Friendly Investments</a>
 										</li>
 										<li>
-											<a href="#0">Marketing</a>
+											<a href="{{ route('home') }}">Tesla</a>
 										</li>
 									</ul>
 								</div>
 								<div class="col-6">
 									<ul class="rest sub-font">
 										<li>
-											<a href="#0">About us</a>
+											<a href="{{ route('about') }}">About us</a>
 										</li>
 										<li>
-											<a href="#0">Case Studies</a>
+											<a href="{{ route('login') }}">Market Place</a>
 										</li>
 										<li>
 											<a href="#0">Privacy Policy</a>
 										</li>
 										<li>
-											<a href="#0">Contact us</a>
+											<a href="{{ route('contact') }}">Contact us</a>
 										</li>
 									</ul>
 								</div>
@@ -103,7 +103,7 @@
 								<h6 class="fw-600">Address</h6>
 							</div>
 							<div class="text">
-								<p>United States 866 Wilshire, 2nd Street Los Angeles 90024.</p>
+								<p>{{ config('main.site.address.country.full') }}</p>
 							</div>
 							<div class="form-item mt-30 sub-font">
 								<input type="email" placeholder="Enter your email address..."
@@ -126,7 +126,7 @@
 			<div class="row">
 				<div class="col-lg-7">
 					<div class="text">
-						<p class="fz-14">© 2024 <span class="text-light">Goncy</span>. All Rights Reserved.
+						<p class="fz-14">© {{ date('Y') }} <span class="text-light">{{ config('main.site.name') }}</span>. All Rights Reserved.
 						</p>
 					</div>
 				</div>

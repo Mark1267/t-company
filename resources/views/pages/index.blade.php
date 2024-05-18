@@ -175,57 +175,110 @@
 <!-- ==================== End Intro ==================== -->
 
 <!-- ==================== Start Services ==================== -->
-<section class="serv-business section-padding pt-0">
+<section class="serv-box section-padding">
 	<div class="container">
-		<div class="lg-bold-head text-center mb-80">
-			<h2 class="sub-font js-splittext-lines">
-				Servi<span class="inline">c<span class="icon"><img
-							src="{{ asset('open') }}/imgs/vector-img/Vector.svg" alt=""></span></span>es
-			</h2>
+		<div class="sec-head mb-80">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="text-center">
+						<h6 class="mb-15">// Our Best Of Service</h6>
+						<h3 class="fw-700">What People Says Our Best Of {{ config('main.site.name') }}
+						</h3>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-4">
-				<div class="item md-mb50 wow fadeInUp" data-wow-delay="0.4s">
-					<div class="img mb-80">
-						<img src="{{ asset('img/4.jpg') }}" alt="">
+		<div class="serv-swiper" data-carousel="swiper" data-items="3" data-loop="true" data-space="30">
+			<div id="content-carousel-container-unq-serv" class="swiper-container"
+				data-swiper="container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="item text-center">
+							<span class="icon-img-70 mb-40">
+								<img src="{{ asset('open') }}/imgs/serv-img/s1.svg" alt="">
+							</span>
+							<h5>Marketing Strategy services</h5>
+							{{-- <div class="text mt-20">
+								<p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis
+									vestibulum condimentum.</p>
+							</div> --}}
+							<a href="#0" class="arrow mt-40">
+								<span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
+											stroke="#141414" stroke-width="2"></path>
+									</svg>
+								</span>
+							</a>
+						</div>
 					</div>
-					<div class="cont">
-						<h5>Online Support 24 Hours</h5>
-						<span class="sub-font p-color mt-20">Discover Support</span>
-						<div class="text pt-30 mt-30 bord-thin-top">
-							<p>Nulla lobortis orci rutrum cursus Curabiur.</p>
+					<div class="swiper-slide">
+						<div class="item text-center">
+							<span class="icon-img-70 mb-40">
+								<img src="{{ asset('open') }}/imgs/serv-img/s2.svg" alt="">
+							</span>
+							<h5>Secure Data & Analytics Service</h5>
+							{{-- <div class="text mt-20">
+								<p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis
+									vestibulum condimentum.</p>
+							</div> --}}
+							<a href="#0" class="arrow mt-40">
+								<span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
+											stroke="#141414" stroke-width="2"></path>
+									</svg>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item text-center">
+							<span class="icon-img-70 mb-40">
+								<img src="{{ asset('open') }}/imgs/serv-img/s3.svg" alt="">
+							</span>
+							<h5>Energy Efficient Investment Options </h5>
+							{{-- <div class="text mt-20">
+								<p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis
+									vestibulum condimentum.</p>
+							</div> --}}
+							<a href="{{ route('register') }}" class="arrow mt-40">
+								<span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
+											stroke="#141414" stroke-width="2"></path>
+									</svg>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item text-center">
+							<span class="icon-img-70 mb-40">
+								<img src="{{ asset('open') }}/imgs/serv-img/s1.svg" alt="">
+							</span>
+							<h5>Marketing Strategy services</h5>
+							{{-- <div class="text mt-20">
+								<p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis
+									vestibulum condimentum.</p>
+							</div> --}}
+							<a href="{{ route('register') }}" class="arrow mt-40">
+								<span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
+											stroke="#141414" stroke-width="2"></path>
+									</svg>
+								</span>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4">
-				<div class="item md-mb50 wow fadeInUp" data-wow-delay="0.6s">
-					<div class="img mb-80">
-						<img src="{{ asset('img/5.jpg') }}" alt="">
-					</div>
-					<div class="cont">
-						<h5>8+ Years of Experience</h5>
-						<span class="sub-font p-color mt-20">Branding Design</span>
-						<div class="text pt-30 mt-30 bord-thin-top">
-							<p>Nulla lobortis orci rutrum cursus Curabiur.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="item wow fadeInUp" data-wow-delay="0.8s">
-					<div class="img mb-80">
-						<img src="{{ asset('open') }}/imgs/serv-img/sv3.png" alt="">
-					</div>
-					<div class="cont">
-						<h5>500+ creative Portfolio</h5>
-						<span class="sub-font p-color mt-20">Special Offers For You</span>
-						<div class="text pt-30 mt-30 bord-thin-top">
-							<p>Nulla lobortis orci rutrum cursus Curabiur.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+			<div class="swiper-pagination"></div>
 		</div>
 	</div>
 </section>
@@ -479,7 +532,7 @@
 <!-- ==================== End Blog ==================== -->
 
 <!-- ==================== Start Brands ==================== -->
-@include('layouts.widgets.clients')
+{{-- @include('layouts.widgets.clients') --}}
 <!-- ==================== End Brands ==================== -->
 @endsection
 
