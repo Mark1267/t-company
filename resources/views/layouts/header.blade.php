@@ -38,7 +38,7 @@
                     </a>
                 </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home') }}">
+                    <a class="nav-link" href="{{ route('home') }}#market">
                         <span class="rolling-text">Our Market Place</span>
                     </a>
                 </li>
@@ -122,11 +122,11 @@
                         </div>
                     </div>
                     <div>
-                        <p class="fz-18">We Are Creative business Agency Buildup professional brands.</p>
+                        <p class="fz-18">We Are Eco-Friendly Investment Company.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 offset-lg-1">
+            {{-- <div class="col-lg-4 offset-lg-1">
                 <div class="search-box">
                     <div class="form-group">
                         <input type="text" name="search" placeholder="Search Here">
@@ -135,7 +135,7 @@
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>

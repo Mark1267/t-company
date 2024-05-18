@@ -78,17 +78,17 @@
                             <div class="links-list">
                                 <a href="#0">Terms & Condition</a>
                                 <a href="#0">Privacy Policy</a>
-                                <a href="#0">Contact Us</a>
+                                <a href="{{ route('contact') }}">Contact Us</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 d-flex justify-content-end">
+                        {{-- <div class="col-lg-6 d-flex justify-content-end">
                             <div class="social-list">
                                 <a href="#0">Facebook</a>
                                 <a href="#0">Twitter</a>
                                 <a href="#0">LinkedIn</a>
                                 <a href="#0">Instagram</a>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

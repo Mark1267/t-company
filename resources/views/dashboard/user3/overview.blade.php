@@ -27,7 +27,6 @@
         <div class="col-xl-8 mx-auto">
             <div class="card">
                 <div class="card-body">
-
                     <div style="height: 440px;">
                         <!-- <div id="mixed-chart" class="apex-charts" dir="ltr"></div> -->
                         <!-- TradingView Widget BEGIN -->
@@ -40,6 +39,7 @@
                                     "height": "100%",
                                     "currencies": [
                                         "EUR",
+                                        "USDT",
                                         "USD",
                                         "JPY",
                                         "GBP",
