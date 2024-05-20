@@ -334,7 +334,7 @@
 				</div>
 				<div class="col-lg-9 col-md-10 valign">
 					<div class="lg-title">
-						<h2 class="js-splittext-lines">Lat’s Look Our Project</h2>
+						<h2 class="js-splittext-lines">Let’s Look Our Project</h2>
 					</div>
 				</div>
 			</div>

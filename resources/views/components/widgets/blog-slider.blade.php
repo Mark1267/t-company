@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<h6 class="mb-15 wow fadeInUp" data-wow-delay="0.4s">// Our Latest News & Blogs</h6>
-					<h2 class="fw-700 js-splittext-lines">We solution with the Our Latest News & Blogs</h2>
+					<h2 class="fw-700 js-splittext-lines">We solution with the Latest News & Blogs</h2>
 				</div>
 				<div class="col-lg-6 d-flex align-items-center justify-content-end">
 					<div class="head-cont">

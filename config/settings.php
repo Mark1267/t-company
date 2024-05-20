@@ -14,11 +14,11 @@ return [
                 'abbr' => 'USA'
             ]
         ],
-        'phone' => ['+447780783025', '+447780783025'],
+        'phone' => ['+1 863 455 7391 ', '+1 863 455 7391 '],
         'socials' => [
             'whatsapp' => [
-                'phone' => '+447780783025',
-                'link' => 'https://api.whatsapp.com/send?phone=447780783025&text=' . urlencode('Hello, I want to invest in Ocean Mining Prime')
+                'phone' => '+1 863 455 7391 ',
+                'link' => 'https://api.whatsapp.com/send?phone=18634557391&text=' . urlencode('Hello, I want to invest in Tesla Energy Company')
             ]
         ],
         'email' => [

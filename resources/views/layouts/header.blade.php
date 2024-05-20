@@ -4,7 +4,7 @@
 
         <!-- Logo -->
         <a class="logo icon-img-100" href="#">
-            <img src="{{ asset('open') }}/imgs/logo-light2.svg" alt="logo">
+            <img src="{{ asset(config('main.site.logo.full')) }}" alt="logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse"

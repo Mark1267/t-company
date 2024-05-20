@@ -55,9 +55,7 @@
 						<h6 class="mb-15 wow fadeInUp" data-wow-delay="0.4s">// Our Frequency & Question's</h6>
 						<h3 class="fw-700 mb-15 js-splittext-lines">We Provide brilliant ideas <br> Frequency & question's
 						</h3>
-						<h5 class="sub-font fw-500 mb-10 js-splittext-lines">Donec ac augue a enim tempus cinia sed id
-							odio. Orci
-							arius natoque penatibu magnis parturient.</h5>
+						<h5 class="sub-font fw-500 mb-10 js-splittext-lines">Find clear and concise answers to your most pressing questions to save you time and frustration.</h5>
 					</div>
 					<div class="accordion" id="accordionExample">
                         @foreach ($faqs() as $key => $faq)

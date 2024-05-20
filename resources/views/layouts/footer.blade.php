@@ -34,7 +34,7 @@
 					<div class="col-lg-4">
 						<div class="info">
 							<div class="logo mb-40">
-								<img src="{{ asset('open') }}/imgs/Logo-footer.svg" alt="">
+								<img src="{{ asset(config('main.site.logo.full')) }}" alt="">
 							</div>
 							<div class="social-text sub-font fw-600">
 								<a href="#0">
