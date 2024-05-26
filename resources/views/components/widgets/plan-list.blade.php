@@ -5,8 +5,7 @@
 				<div class="col-lg-8">
 					<div class="text-center">
 						<h6 class="mb-15 wow fadeInUp" data-wow-delay="0.4s">// Our Best Of Pricing</h6>
-						<h3 class="fw-700 js-splittext-lines">What People Says Our Best Of {{ config('settings.site.name') }}
-						</h3>
+						<h3 class="fw-700 js-splittext-lines">We offer friendly pricing plans tailored for every class of investors.</h3>
 					</div>
 				</div>
 			</div>

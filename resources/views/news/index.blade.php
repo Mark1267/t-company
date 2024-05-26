@@ -19,8 +19,7 @@
                                   </div>
                               </div>
                               <div class="text ml-30">
-                                  <span class="p-style">Nunc id elit vitae augue mattis laoreet. Sed
-                                      ac commodo velit, tristique pulvinar.</span>
+                                  <span class="p-style">We share updates about {{ config('main.site.name') }} and their investment journeys here.</span>
                               </div>
                           </div>
                       </div>
@@ -41,11 +40,11 @@
                   </div>
               </div>
           </div>
-          <div class="col-lg-3 d-flex align-items-center justify-content-end">
+          {{-- <div class="col-lg-3 d-flex align-items-center justify-content-end">
               <div class="img-circle">
                   <img src="{{ asset('open') }}/imgs/header/Circle.svg" alt="">
               </div>
-          </div>
+          </div> --}}
       </div>
   </div>
 </header>

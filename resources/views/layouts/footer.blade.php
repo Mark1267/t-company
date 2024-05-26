@@ -147,7 +147,7 @@
 		<div class="tringle"></div>
 		<div class="circle"></div>
 		<div class="logo-img">
-			<img src="{{ asset('open') }}/imgs/vector-img/Logo.svg" alt="">
+			<img src="{{ asset(config('main.site.logo.favi')) }}" alt="">
 		</div>
 	</div>
 </footer>
