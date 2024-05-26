@@ -4,7 +4,7 @@
 
         <!-- Logo -->
         <a class="logo icon-img-100" href="#">
-            <img src="{{ asset(config('main.site.logo.full')) }}" alt="logo">
+            <img src="{{ asset(config('main.site.logo.inverted.full')) }}" alt="logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse"

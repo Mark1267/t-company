@@ -7,7 +7,7 @@
                 <div class="col-lg-8">
                     <div class="text-center">
                         <h6 class="mb-15">// Our Real Estate Service</h6>
-                        <h3 class="fw-700">From residential properties to commercial developments, we offer a comprehensive range of options designed to suit every lifestyle and investment objective.
+                        <h3 class="fw-700" style="font-size: 19px">From residential properties to commercial developments, we offer a comprehensive range of options designed to suit every lifestyle and investment objective.
                         </h3>
                     </div>
                 </div>
@@ -20,11 +20,11 @@
                         <img src="{{ asset('img/realestate-1.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// Beach House</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">Front Entrance</a>
                         </h5>
-                        <span class="date mt-10">Published Jun 2024</span>
+                        <span class="date mt-10">Published March 2024</span>
                     </div>
                 </div>
             </div>
@@ -34,11 +34,11 @@
                         <img src="{{ asset('img/realestate-2.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// Living Room View</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">Main Lobby</a>
                         </h5>
-                        <span class="date mt-10">Published Jun 2024</span>
+                        <span class="date mt-10">Published March 2024</span>
                     </div>
                 </div>
             </div>
@@ -48,11 +48,11 @@
                         <img src="{{ asset('img/realestate-3.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// Kitchen Area</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">Multiple Bar Chairs</a>
                         </h5>
-                        <span class="date mt-10">Published Jun 2024</span>
+                        <span class="date mt-10">Published March 2024</span>
                     </div>
                 </div>
             </div>
@@ -62,11 +62,11 @@
                         <img src="{{ asset('img/realestate-4.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// Dining Area</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">8-Seater Dining Table</a>
                         </h5>
-                        <span class="date mt-10">Published Jun 2024</span>
+                        <span class="date mt-10">Published March 2024</span>
                     </div>
                 </div>
             </div>
@@ -76,11 +76,11 @@
                         <img src="{{ asset('img/realestate-5.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// Masters Bedroom</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">Glass walls</a>
                         </h5>
-                        <span class="date mt-10">Published Jun 2024</span>
+                        <span class="date mt-10">Published March 2024</span>
                     </div>
                 </div>
             </div>
@@ -90,9 +90,9 @@
                         <img src="{{ asset('img/realestate-6.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// Bathe Room</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">Standard size Bathroom</a>
                         </h5>
                         <span class="date mt-10">Published Jun 2024</span>
                     </div>
@@ -104,11 +104,11 @@
                         <img src="{{ asset('img/realestate-7.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// OutSide View</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">Evening and Lighted up Outside view</a>
                         </h5>
-                        <span class="date mt-10">Published Jun 2024</span>
+                        <span class="date mt-10">Published March 2024</span>
                     </div>
                 </div>
             </div>
@@ -118,11 +118,11 @@
                         <img src="{{ asset('img/realestate-8.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// Pool Side View</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">30ft by 17ft Pool</a>
                         </h5>
-                        <span class="date mt-10">Published Jun 2024</span>
+                        <span class="date mt-10">Published March 2024</span>
                     </div>
                 </div>
             </div>
@@ -132,11 +132,11 @@
                         <img src="{{ asset('img/realestate-9.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// Closet</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">Full Closet</a>
                         </h5>
-                        <span class="date mt-10">Published Jun 2024</span>
+                        <span class="date mt-10">Published March 2024</span>
                     </div>
                 </div>
             </div>
@@ -146,11 +146,11 @@
                         <img src="{{ asset('img/realestate-10.jpeg') }}" alt="">
                     </div>
                     <div class="cont">
-                        <h6 class="fz-18 mb-10">// Web Design</h6>
+                        <h6 class="fz-18 mb-10">// Drone View</h6>
                         <h5 class="fw-700">
-                            <a href="#0">Device Mockup Images PSD Vector Mockups</a>
+                            <a href="#0">Architectural Master Pice</a>
                         </h5>
-                        <span class="date mt-10">Published Jun 2024</span>
+                        <span class="date mt-10">Listed for $170,000</span>
                     </div>
                 </div>
             </div>

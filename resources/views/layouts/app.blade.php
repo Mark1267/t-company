@@ -7,8 +7,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="HTML5 Template Goncy Multi-Purpose themeforest">
-    <meta name="description" content="Goncy - Multi-Purpose HTML5 Template">
+    <meta name="keywords" content="Energy Company">
+    <meta name="description" content="{{ config('main.site.name') }}">
     <meta name="author" content="">
 
     <!-- Title  -->

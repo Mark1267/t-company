@@ -34,7 +34,7 @@ return [
             'text' => 'logo/text.png',
             'inverted' => [
                 'favi' => 'logo/favi-2.png',
-                'full' => 'logo/full-2.png',
+                'full' => 'logo/full-white.jpeg',
                 'text' => 'logo/text-2.png',
             ],
         ]
