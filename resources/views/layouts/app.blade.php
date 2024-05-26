@@ -32,6 +32,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.css">
 
+    <style>
+        a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+        a.gflag img {border:0;}
+        a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+        #goog-gt-tt {display:none !important;}
+        .goog-te-banner-frame {display:none !important;}
+        .goog-te-menu-value:hover {text-decoration:none !important;}
+        body {top:0 !important; width: 100%; overflow-x: hidden}
+        #google_translate_element2 {display:none!important;}
+        .goog-te-combo{ height: auto !important; width: 150px !important;}
+        iframe{display: none}
+    </style>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+
 </head>
 
 <body>
@@ -80,6 +101,8 @@
                                 <a href="#0">Privacy Policy</a>
                                 <a href="{{ route('contact') }}">Contact Us</a>
                             </div>
+                        </div>
+                        <div class="col-lg-6 d-flex justify-content-end">
                         </div>
                         {{-- <div class="col-lg-6 d-flex justify-content-end">
                             <div class="social-list">
