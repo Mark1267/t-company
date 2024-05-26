@@ -25,7 +25,8 @@ class PagesController extends Controller
     }
     
     public function about(){
-        return view('pages.about');
+        $services = Post::where('post_categories_id', 1)->orderBy('created_at', 'desc')->take(4)->get();
+        return view('pages.about', compact('services'));
     }
     
     public function services(){

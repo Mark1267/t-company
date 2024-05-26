@@ -72,9 +72,11 @@
 								<p>Empowering global clean energy initiatives for sustainable futures.</p>
 							</div>
 							<a href="{{ route('register') }}"
-								class="butn-circle d-flex align-items-center justify-content-center text-center">
+								class="butn d-flex align-items-center justify-content-center text-center"
+								style="background: black; color: white; padding: 15px;"
+							>
 								<div>
-									<span class="text fw-700 mb-15">Create an Account</span>
+									<span class="text fw-700">Create an Account</span>
 									{{-- <br> --}}
 									{{-- <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
 										viewBox="0 0 37 36" fill="none">
@@ -116,7 +118,7 @@
 			<div class="col-lg-9">
 				<div class="cont">
 					<h6 class="md-title mb-15 wow fadeInUp" data-wow-delay="0.4s">// About History</h6>
-					<h2 class="js-splittext-lines">Pioneering clean energy solutions with innovation and dedication, revolutionizing the energy landscape for a sustainable future.</h2>
+					<h2 class="js-splittext-lines" style="font-size: 20px">Pioneering clean energy solutions with innovation and dedication, revolutionizing the energy landscape for a sustainable future.</h2>
 				</div>
 			</div>
 			<div class="col-lg-3 d-flex align-items-center justify-content-center">
@@ -128,7 +130,7 @@
 		<div class="row mt-80">
 			<div class="col-lg-2 col-md-4">
 				<div class="img-vector md-mb50 sm-hide">
-					<img src="{{ asset('open') }}/imgs/vector-img/G.svg" alt="">
+					<img src="{{ asset(config('main.site.logo.favi')) }}" alt="">
 				</div>
 			</div>
 			<div class="col-lg-2 offset-lg-1 col-md-4 offset-md-2">
@@ -322,7 +324,7 @@
 					<div class="row sm-hide">
 						<div class="col-lg-5">
 							<div class="g-img">
-								<img src="{{ asset('open') }}/imgs/vector-img/G1.svg" alt="">
+								<img src="{{ asset(config('main.site.logo.favi')) }}" alt="">
 							</div>
 						</div>
 						<div class="col-lg-4 offset-lg-1 valign">
