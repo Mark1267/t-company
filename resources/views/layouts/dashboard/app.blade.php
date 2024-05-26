@@ -127,6 +127,6 @@
         @toastr_js
         @toastr_render
         
-        {!! config('settings.config.tido') !!}
+    {!! config('main.config.tido') !!}
 </body>
 </html>

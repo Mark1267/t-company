@@ -181,5 +181,6 @@
 
         }(jQuery));
     </script>
+    {!! config('main.config.tido') !!}
 </body>
 </html>
