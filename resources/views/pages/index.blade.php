@@ -71,17 +71,17 @@
 							<div class="text mt-50 mb-40">
 								<p>Empowering global clean energy initiatives for sustainable futures.</p>
 							</div>
-							<a href="#0"
+							<a href="{{ route('register') }}"
 								class="butn-circle d-flex align-items-center justify-content-center text-center">
 								<div>
-									<span class="text fw-700 mb-15">Discover More</span>
-									<br>
-									<svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
+									<span class="text fw-700 mb-15">Create an Account</span>
+									{{-- <br> --}}
+									{{-- <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
 										viewBox="0 0 37 36" fill="none">
 										<path
 											d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
 											stroke="#141414" stroke-width="2" />
-									</svg>
+									</svg> --}}
 								</div>
 							</a>
 						</div>
