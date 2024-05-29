@@ -19,7 +19,7 @@ class BlogController extends Controller
 
     public function signle($id){
         return view('news.read', [
-            'post' => Post::whereNotIn('id', [2,3,4,5])->find($id),
+            'post' => Post::find($id),
             'related' => Post::whereNotIn('id', [2,3,4,5])->orderBy('created_at', 'desc')->take(12)->get(),
             'cats' => PostCategories::all()
         ]);
