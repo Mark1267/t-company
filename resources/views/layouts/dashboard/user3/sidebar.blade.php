@@ -123,7 +123,7 @@
                     <li class=" nav-item">
                         <a href="#">
                             <i class="la la-th-list"></i>
-                            <span class="menu-title" data-i18n="nav.trans.withdrawal">Withdrawls</span>
+                            <span class="menu-title" data-i18n="nav.trans.withdrawal">Withdrawals</span>
                         </a>
                         <ul class="menu-content">
                             <li><a class="menu-item" href="{{ route('user.transaction.withdraw.new') }}" data-i18n="nav.trans.withdrawal.d">Withdraw</a>
