@@ -96,7 +96,7 @@
 		</div>
 		<div class="b-img">
 			<img src="{{ asset('img/3.PNG') }}" style="scale: .7" alt="">
-			<a href="https://youtu.be/AzwC6umvd1s"
+			<a href="https://youtu.be/TWLP2Wj90ck"
 				class="vid d-flex align-items-center justify-content-center wow fadeIn" data-wow-delay="0.4s">
 				<div class="text-center">
 					<span>Play</span> <br>
@@ -144,14 +144,14 @@
 					<a href="#0"
 						class="butn-circle d-flex align-items-center justify-content-center text-center mt-40">
 						<div>
-							<span class="text fw-700 mb-15">About More</span>
-							<br>
+							{{-- <br> --}}
 							<svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
 								viewBox="0 0 37 36" fill="none">
 								<path
 									d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
 									stroke="#141414" stroke-width="2" />
 							</svg>
+							<span class="text fw-700 mb-15">About More</span>
 						</div>
 					</a>
 				</div>

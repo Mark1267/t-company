@@ -4,14 +4,14 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<h6 class="mb-15 wow fadeInUp" data-wow-delay="0.4s">// Best Of work Services</h6>
-					<h2 class="fw-700 js-splittext-lines">Freelance Business Name Generator Guide & Ideas Service.</h2>
+					{{-- <h2 class="fw-700 js-splittext-lines">Freelance Business Name Generator Guide & Ideas Service.</h2> --}}
 				</div>
 				<div class="col-lg-6 d-flex align-items-center justify-content-end">
 					<div class="head-cont">
 						<div class="icon-img-60 icon mb-80">
 							<img src="{{ asset('open') }}/imgs/vector-img/plus.svg" alt="">
 						</div>
-						<a href="#0">
+						<a href="{{ route('services') }}">
 							<span class="text mr-15">View All Service</span>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="8"
 									viewBox="0 0 19 8" fill="none">

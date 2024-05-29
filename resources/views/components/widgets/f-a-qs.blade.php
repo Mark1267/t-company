@@ -72,7 +72,7 @@
                                                     stroke="#141414" />
                                             </svg></span></button>
                                 </h2>
-                                <div id="collapse{{ $key+1 }}" class="accordion-collapse collapse show"
+                                <div id="collapse{{ $key+1 }}" class="accordion-collapse collapse {{-- show }}"
                                     aria-labelledby="heading{{ $key+1 }}" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>{{ $faq->answer }}</p>

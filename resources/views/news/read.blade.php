@@ -40,11 +40,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 d-flex align-items-center justify-content-end">
+			{{-- <div class="col-lg-3 d-flex align-items-center justify-content-end">
 				<div class="img-circle">
 					<img src="{{ asset('open') }}/imgs/header/Circle.svg" alt="">
 				</div>
-			</div>
+			</div> --}}
 		</div>
 	</div>
 </header>
