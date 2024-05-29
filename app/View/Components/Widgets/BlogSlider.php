@@ -19,7 +19,7 @@ class BlogSlider extends Component
 
     public function posts()
     {
-        return Post::orderBy('created_at', 'desc')->limit(6)->get();
+        return Post::whereNotIn('id', [2,3,4,5])->orderBy('created_at', 'desc')->limit(6)->get();
     }
 
     /**

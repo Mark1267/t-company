@@ -17,7 +17,7 @@ class PagesController extends Controller
     public function index(){
         
         return view('pages.index', [
-            'news' => Post::orderBy('created_at', 'desc')->limit(6)->get(),
+            'news' => Post::whereNotIn('id', [2,3,4,5])->orderBy('created_at', 'desc')->limit(6)->get(),
             'deposits' => Transaction::where('nature', 1)->where('status', 1)->limit(15)->get(),
             'withdrawals' => Transaction::where('nature', 0)->where('status', 1)->limit(15)->get(),
             // 'services'

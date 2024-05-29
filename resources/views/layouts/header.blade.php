@@ -94,7 +94,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="page-contact.html">
+                    <a class="nav-link" href="{{ route('contact') }}">
                         <span class="rolling-text">Contact Us</span>
                     </a>
                 </li>
@@ -102,7 +102,7 @@
         </div>
 
         <div class="contact-button">
-            <a href="page-contact.html" class="d-flex align-items-center">
+            <a href="{{ route('contact') }}" class="d-flex align-items-center">
                 <span class="pe-7s-call mr-15"></span>
                 <span class="text">{{ config('settings.site.phone')[0] }}</span>
             </a>

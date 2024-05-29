@@ -257,7 +257,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="swiper-slide">
+					{{-- <div class="swiper-slide">
 						<div class="item text-center">
 							<span class="icon-img-70 mb-40">
 								<img src="{{ asset('open') }}/imgs/serv-img/s1.svg" alt="">
@@ -266,7 +266,7 @@
 							{{-- <div class="text mt-20">
 								<p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis
 									vestibulum condimentum.</p>
-							</div> --}}
+							</div> --}
 							<a href="{{ route('register') }}" class="arrow mt-40">
 								<span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
 										xmlns="http://www.w3.org/2000/svg">
@@ -277,7 +277,7 @@
 								</span>
 							</a>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>

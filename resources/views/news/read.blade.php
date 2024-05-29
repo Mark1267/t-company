@@ -133,7 +133,7 @@
 					</div>
 					<div class="row">
 						@foreach ($related as $post)
-							<div class="col-md-3">
+							<div class="col-md-4">
 								<div class="item mb-30">
 									<div class="img fit-img">
 										<img src="{{ asset($post->image) }}" alt="{{ $post->title }}">

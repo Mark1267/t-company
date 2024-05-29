@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class BlogController extends Controller
 {
     public function news(){
-        $news = Post::orderBy('created_at', 'desc')->paginate(20);
+        $news = Post::whereNotIn('id', [2,3,4,5])->orderBy('created_at', 'desc')->paginate(20);
         $cats = PostCategories::all();
         return view('news.index', [
             'posts' => $news,
@@ -19,15 +19,15 @@ class BlogController extends Controller
 
     public function signle($id){
         return view('news.read', [
-            'post' => Post::find($id),
-            'related' => Post::orderBy('created_at', 'desc')->take(12)->get(),
+            'post' => Post::whereNotIn('id', [2,3,4,5])->find($id),
+            'related' => Post::whereNotIn('id', [2,3,4,5])->orderBy('created_at', 'desc')->take(12)->get(),
             'cats' => PostCategories::all()
         ]);
     }
 
     public function sortByCategory($id)
     {
-        $posts = Post::where('post_categories_id', $id)->orderBy('created_at', 'desc')->paginate(15);
+        $posts = Post::whereNotIn('id', [2,3,4,5])->where('post_categories_id', $id)->orderBy('created_at', 'desc')->paginate(15);
         return view('news.index', compact('posts'));
     }
 }

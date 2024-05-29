@@ -65,11 +65,11 @@
 								<div class="col-6">
 									<ul class="rest sub-font">
 										<li>
-											<a href="{{ route('news.all') }}">Energy Submit({{ date('Y') }})</a>
+											<a href="{{ route('news.signle', ['id' => 5]) }}">Energy Submit({{ date('Y') }})</a>
 										</li>
-										<li>
+										{{-- <li>
 											<a href="{{ route('about') }}">About Us</a>
-										</li>
+										</li> --}}
 										<li>
 											<a href="{{ route('plans') }}">Eco Friendly Investments</a>
 										</li>
@@ -87,7 +87,7 @@
 											<a href="{{ route('login') }}">Market Place</a>
 										</li>
 										<li>
-											<a href="#0">Privacy Policy</a>
+											<a href="{{ route('news.signle', ['id' => 2]) }}">Privacy Policy</a>
 										</li>
 										<li>
 											<a href="{{ route('contact') }}">Contact us</a>
