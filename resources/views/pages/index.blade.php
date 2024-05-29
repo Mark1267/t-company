@@ -141,7 +141,7 @@
 			<div class="col-lg-5">
 				<div class="text">
 					<p>Under Elon Musk's visionary leadership, {{ config('main.site.name') }} has emerged as the premier choice for clean energy investments. Through innovative strategies and a steadfast commitment to sustainability, {{ config('main.site.name') }} has revolutionized the energy sector. With a focus on cutting-edge technologies and eco-friendly practices, {{ config('main.site.name') }} continues to lead the way in shaping a greener future for generations to come.</p>
-					<a href="#0"
+					<a href="{{ route('news.signle', ['id' => 3]) }}"
 						class="butn-circle d-flex align-items-center justify-content-center text-center mt-40">
 						<div>
 							{{-- <br> --}}

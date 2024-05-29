@@ -132,10 +132,10 @@
 				</div>
 				<div class="col-lg-5 d-flex justify-content-end">
 					<div class="slink fz-14">
-						<a href="#0">
+						<a href="{{ route('news.signle', ['id' => 2]) }}">
 							<span class="text">Privacy & Cookie Policy</span>
 						</a>
-						<a href="#0">
+						<a href="{{ route('news.signle', ['id' => 4]) }}">
 							<span class="text">Terms of Services</span>
 						</a>
 					</div>
