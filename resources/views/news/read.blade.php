@@ -133,7 +133,7 @@
 					</div>
 					<div class="row">
 						@foreach ($related as $post)
-							<div class="col-md-6">
+							<div class="col-md-3">
 								<div class="item mb-30">
 									<div class="img fit-img">
 										<img src="{{ asset($post->image) }}" alt="{{ $post->title }}">
@@ -184,7 +184,7 @@
 						<ul class="rest">
 							@foreach ($cats as $cat)
 								<li>
-									<span><a href="{{ route('news.by.category', ['category_id' => $cat->id]) }}">{{ $cat->name }}</a></span>
+									<span><a href="{{ route('news.by.category', ['category_id' => $cat->id]) }}">{{ $cat->title }}</a></span>
 									<span class="ml-auto">{{ $cat->post_count }}</span>
 								</li>
 							@endforeach
