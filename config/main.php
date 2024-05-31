@@ -41,18 +41,6 @@ return [
     ],
     'config' => [
         'coin_api_key' => 'f52198f5-a38e-48d1-a8d7-f7af1e5c63dc',
-        'tido' => "<!--Start of Tawk.to Script-->
-        <script type=\"text/javascript\">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/665355399a809f19fb35552d/1huqo9rkb';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
-        </script>
-        <!--End of Tawk.to Script-->",
+        'tido' => "<script src=\"//code.tidio.co/rr2zbkyitfefs4mwer0krpsnmd5awfi2.js\" async></script>",
     ]
 ];
